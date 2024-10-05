@@ -15,9 +15,9 @@ public class Library {
     
     public void removeBook(String bookName) {
         if (books.remove(bookName)) {
-            System.out.println(bookName + " removed from library.");
+            System.out.println(bookName + " removed the bookname from library.");
         } else {
-            System.out.println(bookName + " not found in library.");
+            System.out.println(bookName + " cannot be found in library.");
         }
     }
 }
